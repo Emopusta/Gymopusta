@@ -1,20 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Moves\Commands\" />
-    <Folder Include="Features\Moves\Dtos\" />
-    <Folder Include="Features\Moves\Models\" />
-    <Folder Include="Features\Moves\Constants\" />
-    <Folder Include="Features\Moves\Profiles\" />
-    <Folder Include="Features\Moves\Rules\" />
-    <Folder Include="Features\Moves\Queries\" />
-    <Folder Include="Services\Repositories\" />
-  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Domain\Domain\Domain.csproj" />
+	</ItemGroup>
+
+	
 
 </Project>
