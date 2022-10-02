@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s83ZJZsNSzkkt1E6x89eDAvyoHv749frjhieYX5yS32xhb8SvyMu8QpkqO0Ahl//RiAgQfvnSKJxsWMHzWP0HQ==",
+  "dgSpecHash": "WY01LjC7FGfajqA5UwTbvlcZHQ+GQGhuj4n5n7VezLxeGo3HBbq8a0ZskND0DTmWvBzJLI7cxxQ0ifUPMRvgIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\emred\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\emred\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",

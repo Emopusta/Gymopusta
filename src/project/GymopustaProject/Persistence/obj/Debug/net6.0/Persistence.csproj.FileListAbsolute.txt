@@ -19,3 +19,9 @@ C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\b
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.Persistence.pdb
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.Application.dll
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.CrossCuttingConcerns.dll
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.Security.dll
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.Application.pdb
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.CrossCuttingConcerns.pdb
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Persistence\bin\Debug\net6.0\Core.Security.pdb
