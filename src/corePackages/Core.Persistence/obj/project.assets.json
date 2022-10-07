@@ -635,19 +635,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emred\\.nuget\\packages\\": {}
+    "C:\\Users\\Emre Duman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
       "projectName": "Core.Persistence",
-      "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
-      "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\obj\\",
+      "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+      "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

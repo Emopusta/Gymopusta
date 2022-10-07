@@ -46,6 +46,8 @@ namespace Persistence.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MoveAreaId");
+
                     b.ToTable("Moves", (string)null);
 
                     b.HasData(
@@ -56,6 +58,48 @@ namespace Persistence.Migrations
                             MoveAreaId = 1,
                             MoveName = "Chest Press"
                         });
+                });
+
+            modelBuilder.Entity("Domain.Entities.MoveArea", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("MoveAreaName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("MoveAreaName");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MoveAreas", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            MoveAreaName = "Chest"
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.Move", b =>
+                {
+                    b.HasOne("Domain.Entities.MoveArea", "MoveArea")
+                        .WithMany("Moves")
+                        .HasForeignKey("MoveAreaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MoveArea");
+                });
+
+            modelBuilder.Entity("Domain.Entities.MoveArea", b =>
+                {
+                    b.Navigation("Moves");
                 });
 #pragma warning restore 612, 618
         }
