@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\emred\\.nuget\\packages\\": {}
+    "C:\\Users\\Emre Duman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

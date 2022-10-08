@@ -21,6 +21,7 @@ namespace Persistence
                                                      options.UseSqlServer(
                                                          configuration.GetConnectionString("GymopustaConnectionString")));
             services.AddScoped<IMoveRepository, MoveRepository>();
+            services.AddScoped<IMoveAreaRepository, MoveAreaRepository>();
 
 
             return services;

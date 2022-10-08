@@ -22,6 +22,8 @@ namespace Application.Features.Moves.Profiles
 
             CreateMap<IPaginate<Move>, MoveListModel>().ReverseMap();
             CreateMap<Move, MoveListDto>().ReverseMap();
+
+            
         }
     }
 }

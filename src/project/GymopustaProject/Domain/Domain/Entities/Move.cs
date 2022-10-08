@@ -12,6 +12,7 @@ namespace Domain.Entities
         public int MoveAreaId { get; set; }
         public string MoveName { get; set; }
         public string Description { get; set; }
+        public virtual MoveArea? MoveArea { get; set; }
 
         public Move()
         {

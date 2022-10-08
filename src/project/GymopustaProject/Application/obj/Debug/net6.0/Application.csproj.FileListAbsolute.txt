@@ -21,3 +21,26 @@ C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Application\b
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Application.pdb
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.CrossCuttingConcerns.pdb
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Security.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Application.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Application.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.CrossCuttingConcerns.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Persistence.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Security.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Domain.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Application.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.CrossCuttingConcerns.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Domain.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Persistence.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\bin\Debug\net6.0\Core.Security.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\Application\obj\Debug\net6.0\ref\Application.dll
