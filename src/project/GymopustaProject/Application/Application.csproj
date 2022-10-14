@@ -22,8 +22,6 @@
 
 
 	<ItemGroup>
-	  <Folder Include="Features\MoveAreas\Models\" />
-	  <Folder Include="Features\MoveAreas\Queries\GetListMoveAreaById\" />
 	  <Folder Include="Features\Moves\Commands\DeleteMove\" />
 	  <Folder Include="Features\Moves\Commands\UpdateMove\" />
 	  <Folder Include="Features\Moves\Constants\" />
