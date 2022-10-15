@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {}
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

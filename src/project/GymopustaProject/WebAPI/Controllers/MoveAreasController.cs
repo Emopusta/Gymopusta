@@ -1,5 +1,8 @@
 ﻿using Application.Features.MoveAreas.Commands.CreateMoveArea;
 using Application.Features.MoveAreas.Dtos;
+using Application.Features.MoveAreas.Models;
+using Application.Features.MoveAreas.Queries.GetListMoveArea;
+using Core.Application.Requests;
 using KodlamaioDevs.WebAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,5 +19,14 @@ namespace WebAPI.Controllers
             CreatedMoveAreaDto result = await Mediator.Send(createMoveAreaCommand);
             return Ok(result);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery] PageRequest pageRequest)
+        {
+            GetListMoveAreaQuery getListMoveAreaQuery = new() { PageRequest = pageRequest };
+            MoveAreaListModel result = await Mediator.Send(getListMoveAreaQuery);
+            return Ok(result);
+        }
+
     }
 }
