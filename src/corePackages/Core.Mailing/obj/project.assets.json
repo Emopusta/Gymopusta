@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "MailKit/3.1.1": {
+      "MailKit/3.4.1": {
         "type": "package",
         "dependencies": {
-          "MimeKit": "3.1.1"
+          "MimeKit": "3.4.1"
         },
         "compile": {
           "lib/net6.0/MailKit.dll": {
@@ -69,7 +69,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "MimeKit/3.1.1": {
+      "MimeKit/3.4.1": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.9.0",
@@ -159,29 +159,23 @@
     }
   },
   "libraries": {
-    "MailKit/3.1.1": {
-      "sha512": "NprdMF0ABNWOqQUuqz45X5YkJK6f3vtYwwvqR6nGVdmrZ7HkahNbSATpOZ5Rj3W1cgDGf/iD8vs/oCyZ4wUO7g==",
+    "MailKit/3.4.1": {
+      "sha512": "XsrxxJDNb9KOtCHjXOlQjUGMKocZ5+DtKIH7cCoc6IRd7rZmfjDof0ITK16dAJhnTYcCvPa90fpYa6/4QkvmIw==",
       "type": "package",
-      "path": "mailkit/3.1.1",
+      "path": "mailkit/3.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icons/mailkit-50.png",
-        "lib/net452/MailKit.dll",
-        "lib/net452/MailKit.pdb",
-        "lib/net452/MailKit.xml",
-        "lib/net46/MailKit.dll",
-        "lib/net46/MailKit.pdb",
-        "lib/net46/MailKit.xml",
+        "lib/net462/MailKit.dll",
+        "lib/net462/MailKit.pdb",
+        "lib/net462/MailKit.xml",
         "lib/net47/MailKit.dll",
         "lib/net47/MailKit.pdb",
         "lib/net47/MailKit.xml",
         "lib/net48/MailKit.dll",
         "lib/net48/MailKit.pdb",
         "lib/net48/MailKit.xml",
-        "lib/net5.0/MailKit.dll",
-        "lib/net5.0/MailKit.pdb",
-        "lib/net5.0/MailKit.xml",
         "lib/net6.0/MailKit.dll",
         "lib/net6.0/MailKit.pdb",
         "lib/net6.0/MailKit.xml",
@@ -191,7 +185,7 @@
         "lib/netstandard2.1/MailKit.dll",
         "lib/netstandard2.1/MailKit.pdb",
         "lib/netstandard2.1/MailKit.xml",
-        "mailkit.3.1.1.nupkg.sha512",
+        "mailkit.3.4.1.nupkg.sha512",
         "mailkit.nuspec"
       ]
     },
@@ -258,29 +252,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MimeKit/3.1.1": {
-      "sha512": "aY2fuCucJ0S5gWeak8o7aSZXm19Vr/rJj746+RlvUrPKzUESDyXKLoxqW6rs7z4DA0qJ1AQxEAO2MnWxZncLGA==",
+    "MimeKit/3.4.1": {
+      "sha512": "0UmjauTJDukShQlwmClY0i5iRz1zwVxAMvM2VoJ5rM0FUSNQC34OZJCKMTAGEJAWYAsTh5hXZIufnUbbm/3jkQ==",
       "type": "package",
-      "path": "mimekit/3.1.1",
+      "path": "mimekit/3.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icons/mimekit-50.png",
-        "lib/net452/MimeKit.dll",
-        "lib/net452/MimeKit.pdb",
-        "lib/net452/MimeKit.xml",
-        "lib/net46/MimeKit.dll",
-        "lib/net46/MimeKit.pdb",
-        "lib/net46/MimeKit.xml",
+        "lib/net462/MimeKit.dll",
+        "lib/net462/MimeKit.pdb",
+        "lib/net462/MimeKit.xml",
         "lib/net47/MimeKit.dll",
         "lib/net47/MimeKit.pdb",
         "lib/net47/MimeKit.xml",
         "lib/net48/MimeKit.dll",
         "lib/net48/MimeKit.pdb",
         "lib/net48/MimeKit.xml",
-        "lib/net5.0/MimeKit.dll",
-        "lib/net5.0/MimeKit.pdb",
-        "lib/net5.0/MimeKit.xml",
         "lib/net6.0/MimeKit.dll",
         "lib/net6.0/MimeKit.pdb",
         "lib/net6.0/MimeKit.xml",
@@ -290,7 +278,7 @@
         "lib/netstandard2.1/MimeKit.dll",
         "lib/netstandard2.1/MimeKit.pdb",
         "lib/netstandard2.1/MimeKit.xml",
-        "mimekit.3.1.1.nupkg.sha512",
+        "mimekit.3.4.1.nupkg.sha512",
         "mimekit.nuspec"
       ]
     },
@@ -397,10 +385,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MailKit >= 3.1.1",
+      "MailKit >= 3.4.1",
       "Microsoft.Extensions.Configuration.Abstractions >= 6.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 6.0.0",
-      "MimeKit >= 3.1.1"
+      "MimeKit >= 3.4.1"
     ]
   },
   "packageFolders": {
@@ -444,7 +432,7 @@
         "dependencies": {
           "MailKit": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "[3.4.1, )"
           },
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
@@ -456,7 +444,7 @@
           },
           "MimeKit": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "[3.4.1, )"
           }
         },
         "imports": [

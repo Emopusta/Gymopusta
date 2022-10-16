@@ -16,7 +16,7 @@ namespace Domain.Features.Moves.Commands.CreateMove
     {
         public CreatedMoveDto createdMoveDto { get; set; }
 
-        public string[] Roles => new[] {"admin"};
+        public string[] Roles => new[] { "admin" };
 
         public class CreateMoveCommandHandler : IRequestHandler<CreateMoveCommand, CreatedMoveDto>
         {

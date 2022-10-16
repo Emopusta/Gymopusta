@@ -1,7 +1,6 @@
 using Application;
 using Core.Security.Encryption;
 using Core.Security.JWT;
-using KodlamaioDevs.Application;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
