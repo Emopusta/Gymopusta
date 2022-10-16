@@ -22,6 +22,9 @@ namespace Persistence
                                                          configuration.GetConnectionString("GymopustaConnectionString")));
             services.AddScoped<IMoveRepository, MoveRepository>();
             services.AddScoped<IMoveAreaRepository, MoveAreaRepository>();
+            services.AddScoped<IOperationClaimRepository, OperationClaimRepository>();
+            services.AddScoped<IUserOperationClaimRepository, UserOperationClaimRepository>();
+            services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 
 
             return services;

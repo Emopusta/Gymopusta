@@ -1,5 +1,6 @@
 ﻿using Application.Services.Repositories;
 using AutoMapper;
+using Core.Application.Pipelines.Authorization;
 using Domain.Entities;
 using Domain.Features.Moves.Dtos;
 using MediatR;
@@ -11,10 +12,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Features.Moves.Commands.CreateMove
 {
-    public class CreateMoveCommand : IRequest<CreatedMoveDto>
+    public class CreateMoveCommand : IRequest<CreatedMoveDto> , ISecuredRequest
     {
         public CreatedMoveDto createdMoveDto { get; set; }
 
+        public string[] Roles => new[] {"admin"};
 
         public class CreateMoveCommandHandler : IRequestHandler<CreateMoveCommand, CreatedMoveDto>
         {

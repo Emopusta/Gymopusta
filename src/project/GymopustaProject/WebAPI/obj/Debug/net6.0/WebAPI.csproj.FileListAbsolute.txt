@@ -176,3 +176,4 @@ C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\WebAPI\o
 C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\Emre Duman\Source\Repos\Gymopusta\src\project\GymopustaProject\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
