@@ -23,9 +23,7 @@
 
 	<ItemGroup>
 	  <Folder Include="Features\Moves\Commands\DeleteMove\" />
-	  <Folder Include="Features\Moves\Commands\UpdateMove\" />
 	  <Folder Include="Features\Moves\Constants\" />
-	  <Folder Include="Features\Moves\Rules\" />
 	  <Folder Include="Features\OperationClaims\" />
 	  <Folder Include="Features\UserOperationClaims\" />
 	</ItemGroup>

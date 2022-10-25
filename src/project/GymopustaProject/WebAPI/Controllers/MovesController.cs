@@ -1,4 +1,6 @@
-﻿using Application.Features.Moves.Models;
+﻿using Application.Features.Moves.Commands.UpdateMove;
+using Application.Features.Moves.Dtos;
+using Application.Features.Moves.Models;
 using Application.Features.Moves.Queries.GetByMoveAreaIdMove;
 using Application.Features.Moves.Queries.GetListMove;
 using Core.Application.Requests;
@@ -34,6 +36,13 @@ namespace WebAPI.Controllers
         {
             GetByMoveAreaIdMoveQuery getByMoveAreaIdMoveQuery = new() { PageRequest = pageRequest, MoveAreaId = moveAreaId };
             MoveListModel result = await Mediator.Send(getByMoveAreaIdMoveQuery);
+            return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateMoveCommand updateMoveCommand)
+        {
+            UpdatedMoveDto result = await Mediator.Send(updateMoveCommand);
             return Ok(result);
         }
     }

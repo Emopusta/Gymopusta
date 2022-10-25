@@ -9,6 +9,7 @@ namespace Application.Features.MoveAreas.Dtos
     public class CreatedMoveAreaDto
     {
         public string MoveAreaName { get; set; }
-        public int MoveId { get; set; }
+        public int Id { get; set; }
+
     }
 }

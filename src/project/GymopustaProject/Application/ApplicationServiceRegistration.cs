@@ -1,4 +1,5 @@
-﻿using Application.Services.AuthService;
+﻿using Application.Features.Moves.Rules;
+using Application.Services.AuthService;
 using Core.Application.Pipelines.Authorization;
 using Core.Application.Pipelines.Caching;
 using Core.Application.Pipelines.Logging;
@@ -26,6 +27,7 @@ namespace Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddScoped<AuthBusinessRules>();
+            services.AddScoped<MoveBusinessRules>();
 
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
