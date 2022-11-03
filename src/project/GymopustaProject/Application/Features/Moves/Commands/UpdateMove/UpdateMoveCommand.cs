@@ -35,7 +35,7 @@ namespace Application.Features.Moves.Commands.UpdateMove
 
                 moveToUpdate.MoveName = request.UpdatedMoveDto.MoveName;
                 moveToUpdate.MoveAreaId = request.UpdatedMoveDto.MoveAreaId;
-                moveToUpdate.Description = request.UpdatedMoveDto.Description;
+                
                    
                 
 
@@ -46,7 +46,6 @@ namespace Application.Features.Moves.Commands.UpdateMove
                 {
                     MoveAreaId = updatedMove.MoveAreaId,
                     MoveName = updatedMove.MoveName,
-                    Description = updatedMove.Description
                 };
 
                 return updatedMoveDto;

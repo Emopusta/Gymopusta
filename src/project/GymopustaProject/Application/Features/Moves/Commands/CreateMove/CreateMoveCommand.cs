@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Features.Moves.Commands.CreateMove
 {
-    public class CreateMoveCommand : IRequest<CreatedMoveDto> , ISecuredRequest
+    public class CreateMoveCommand : IRequest<CreatedMoveDto>// , ISecuredRequest
     {
         public CreatedMoveDto createdMoveDto { get; set; }
 
-        public string[] Roles => new[] { "admin" };
+        //public string[] Roles => new[] { "admin" };
 
         public class CreateMoveCommandHandler : IRequestHandler<CreateMoveCommand, CreatedMoveDto>
         {

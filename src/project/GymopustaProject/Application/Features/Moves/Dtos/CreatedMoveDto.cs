@@ -10,6 +10,5 @@ namespace Domain.Features.Moves.Dtos
     {
         public int MoveAreaId { get; set; }
         public string MoveName { get; set; }
-        public string Description { get; set; }
     }
 }

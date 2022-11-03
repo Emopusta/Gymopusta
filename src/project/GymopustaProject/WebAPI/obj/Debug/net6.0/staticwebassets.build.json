@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Hash": "aHc4bIm+xu/xu+182e6XHBrGE4KwmySDTp54Sr5ECkE=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs975d4569-0329-41e3-80c7-22c28550c268.PNG",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "GIFs975d4569-0329-41e3-80c7-22c28550c268.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GIFs975d4569-0329-41e3-80c7-22c28550c268.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs9aa0447b-c234-44a8-855c-d48e404708c5.PNG",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "GIFs9aa0447b-c234-44a8-855c-d48e404708c5.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GIFs9aa0447b-c234-44a8-855c-d48e404708c5.PNG"
+    }
+  ]
 }

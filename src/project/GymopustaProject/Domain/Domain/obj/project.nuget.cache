@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ltRbMHtPmHUnsnTLaPBrCO1iACO1W0HnenWOUDiq5TMs2UPEB9hqtW5lTni98InW+4sDuaYJmLTDElEkB3w7YA==",
+  "dgSpecHash": "aYJIiNvvww09Q5MAnWVrkCP1TK8dkNYAmbd3tiTvzmgQ1pvPwgyQvgIDyIKS/wMNNDpwWAorsK/t5MujFm3s4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emred\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\emred\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.10\\microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",

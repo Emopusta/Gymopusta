@@ -1,10 +1,13 @@
-﻿using Core.Security.Entities;
+﻿using Core.Persistence.Repositories;
+using Core.Security.Entities;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 // add-migration name
@@ -22,11 +25,30 @@ namespace Persistence.Contexts
         public DbSet<OperationClaim> OperationClaims { get; set; }
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<Description> Descriptions { get; set; }
+        public DbSet<GIF> GIFs { get; set; }
 
 
         public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
         {
             Configuration = configuration;
+        }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        {
+            IEnumerable<EntityEntry<Entity>> datas = ChangeTracker.Entries<Entity>();
+
+            foreach(var data in datas)
+            {
+                _ = data.State switch
+                {
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow
+                };
+            }
+
+            return await base.SaveChangesAsync(cancellationToken);
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -38,75 +60,7 @@ namespace Persistence.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-            modelBuilder.Entity<Move>(a =>
-            {
-                a.ToTable("Moves").HasKey(k => k.Id);
-                a.Property(p => p.Id).HasColumnName("Id");
-                a.Property(p => p.MoveAreaId).HasColumnName("MoveAreaId");
-                a.Property(p => p.MoveName).HasColumnName("MoveName");
-                a.Property(p => p.Description).HasColumnName("Description");
-                a.HasOne(p => p.MoveArea);
-            });
-
-            modelBuilder.Entity<MoveArea>(a =>
-            {
-                a.ToTable("MoveAreas").HasKey(k => k.Id);
-                a.Property(p => p.Id).HasColumnName("Id");
-                a.Property(p => p.MoveAreaName).HasColumnName("MoveAreaName");
-                a.HasMany(p => p.Moves);
-            });
-
-            modelBuilder.Entity<User>(a =>
-            {
-                a.ToTable("Users").HasKey(k => k.Id);
-                a.Property(p => p.Id).HasColumnName("Id");
-                a.Property(p => p.FirstName).HasColumnName("FirstName");
-                a.Property(p => p.LastName).HasColumnName("LastName");
-                a.Property(p => p.Email).HasColumnName("Email");
-                a.Property(p => p.PasswordSalt).HasColumnName("PasswordSalt");
-                a.Property(p => p.PasswordHash).HasColumnName("PasswordHash");
-                a.Property(p => p.Status).HasColumnName("Status");
-                a.Property(p => p.AuthenticatorType).HasColumnName("AuthenticatorType");
-
-            });
-
-            modelBuilder.Entity<OperationClaim>(a =>
-            {
-                a.ToTable("OperationClaims").HasKey(k => k.Id);
-                a.Property(p => p.Id).HasColumnName("Id");
-                a.Property(p => p.Name).HasColumnName("Name");
-
-            });
-
-            modelBuilder.Entity<UserOperationClaim>(a =>
-            {
-                a.ToTable("UserOperationClaims").HasKey(k => k.Id);
-                a.Property(p => p.Id).HasColumnName("Id");
-                a.Property(p => p.OperationClaimId).HasColumnName("OperationClaimId");
-                a.Property(p => p.UserId).HasColumnName("UserId");
-
-            });
-            modelBuilder.Entity<RefreshToken>(a =>
-            {
-                a.ToTable("RefreshTokens").HasKey(k => k.Id);
-                a.Property(p => p.UserId).HasColumnName("UserId");
-                a.Property(p => p.Token).HasColumnName("Token");
-                a.Property(p => p.Expires).HasColumnName("Expires");
-                a.Property(p => p.Created).HasColumnName("Created");
-                a.Property(p => p.CreatedByIp).HasColumnName("CreatedByIp");
-                a.Property(p => p.Revoked).HasColumnName("Revoked");
-                a.Property(p => p.RevokedByIp).HasColumnName("RevokedByIp");
-                a.Property(p => p.ReplacedByToken).HasColumnName("ReplacedByToken");
-                a.Property(p => p.ReasonRevoked).HasColumnName("ReasonRevoked");
-            });
-
-            Move[] moveEntitySeeds = { new(1, 1, "Chest Press", "blabla bla bla") };
-            modelBuilder.Entity<Move>().HasData(moveEntitySeeds);
-
-            MoveArea[] moveAreaEntitySeeds = { new (1,"Chest") };
-            modelBuilder.Entity<MoveArea>().HasData(moveAreaEntitySeeds);
-
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }

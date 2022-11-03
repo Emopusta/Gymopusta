@@ -12,14 +12,14 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20221016110328_added-auth")]
-    partial class addedauth
+    [Migration("20221103081943_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.9")
+                .HasAnnotation("ProductVersion", "6.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -33,10 +33,16 @@ namespace Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Name");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -59,6 +65,9 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("CreatedByIp");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("Expires")
                         .HasColumnType("datetime2")
@@ -85,6 +94,9 @@ namespace Persistence.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("Token");
 
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int")
                         .HasColumnName("UserId");
@@ -108,6 +120,9 @@ namespace Persistence.Migrations
                     b.Property<int>("AuthenticatorType")
                         .HasColumnType("int")
                         .HasColumnName("AuthenticatorType");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -138,6 +153,9 @@ namespace Persistence.Migrations
                         .HasColumnType("bit")
                         .HasColumnName("Status");
 
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("Id");
 
                     b.ToTable("Users", (string)null);
@@ -152,9 +170,15 @@ namespace Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("OperationClaimId")
                         .HasColumnType("int")
                         .HasColumnName("OperationClaimId");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int")
@@ -169,6 +193,37 @@ namespace Persistence.Migrations
                     b.ToTable("UserOperationClaims", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.Description", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DescriptionText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("DescriptionText");
+
+                    b.Property<int>("MoveId")
+                        .HasColumnType("int")
+                        .HasColumnName("MoveId");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MoveId");
+
+                    b.ToTable("Descriptions", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.Move", b =>
                 {
                     b.Property<int>("Id")
@@ -178,10 +233,9 @@ namespace Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Description");
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
 
                     b.Property<int>("MoveAreaId")
                         .HasColumnType("int")
@@ -192,20 +246,14 @@ namespace Persistence.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("MoveName");
 
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("Id");
 
                     b.HasIndex("MoveAreaId");
 
                     b.ToTable("Moves", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Description = "blabla bla bla",
-                            MoveAreaId = 1,
-                            MoveName = "Chest Press"
-                        });
                 });
 
             modelBuilder.Entity("Domain.Entities.MoveArea", b =>
@@ -217,10 +265,16 @@ namespace Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("MoveAreaName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("MoveAreaName");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -230,7 +284,9 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            MoveAreaName = "Chest"
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MoveAreaName = "Chest",
+                            UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -264,6 +320,17 @@ namespace Persistence.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Description", b =>
+                {
+                    b.HasOne("Domain.Entities.Move", "Move")
+                        .WithMany("Descriptions")
+                        .HasForeignKey("MoveId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Move");
+                });
+
             modelBuilder.Entity("Domain.Entities.Move", b =>
                 {
                     b.HasOne("Domain.Entities.MoveArea", "MoveArea")
@@ -280,6 +347,11 @@ namespace Persistence.Migrations
                     b.Navigation("RefreshTokens");
 
                     b.Navigation("UserOperationClaims");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Move", b =>
+                {
+                    b.Navigation("Descriptions");
                 });
 
             modelBuilder.Entity("Domain.Entities.MoveArea", b =>

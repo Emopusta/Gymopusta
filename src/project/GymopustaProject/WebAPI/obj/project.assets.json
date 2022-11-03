@@ -2180,6 +2180,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "System.Linq.Dynamic.Core": "1.2.20"
         },

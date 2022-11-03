@@ -179,3 +179,4 @@ C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\WebAPI\obj\De
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\emred\source\repos\Gymopusta\src\project\GymopustaProject\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json

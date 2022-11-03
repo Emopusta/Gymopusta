@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jNujPS9b324HF5NofGhpFf1mCYvxhnHo+r2bS/tJ5wDXlUiM9LvFRhQf0Ev43VeEwxnep3A6XrW39Vo1ZAX9rQ==",
+  "dgSpecHash": "dub4egidSQlTWBTY5SgFyRs9ugUKdmHZ8fzKiaF9/zPv7AoVJ/PHSTvn/RhprPe5JVjqnaBOh5I3yyqqIzfMQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\Core.Security.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emred\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\emred\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\emred\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
