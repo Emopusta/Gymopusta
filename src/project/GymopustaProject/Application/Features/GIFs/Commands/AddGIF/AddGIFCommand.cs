@@ -1,5 +1,5 @@
-﻿using Application.Features.GIFs.Commands.Dtos;
-using Application.Features.GIFs.Constants;
+﻿using Application.Features.GIFs.Constants;
+using Application.Features.GIFs.Dtos;
 using Application.Services.Repositories;
 using Core.Utilities.Helpers.FileHelper;
 using Domain.Entities;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.Features.GIFs.Commands.AddGIF
-{ 
+{
     public class AddGIFCommand : IRequest<AddedGIFDto>
     {
         public IFormFile File { get; set; }

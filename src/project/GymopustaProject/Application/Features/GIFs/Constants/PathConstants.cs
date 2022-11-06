@@ -8,6 +8,7 @@ namespace Application.Features.GIFs.Constants
 {
     public class PathConstants
     {
-        public static string GIFsPath = @"wwwroot/GIFs";
+        public static string GIFsPath = @"wwwroot/GIFs/";
+        public static string GlobalGIFPath = @"C:/Users/emred/source/repos/Gymopusta/src/project/GymopustaProject/WebAPI/wwwroot/GIFs/";
     }
 }
