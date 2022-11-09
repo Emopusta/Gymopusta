@@ -10,5 +10,6 @@ namespace Application.Features.GIFs.Constants
     {
         public static string GIFsPath = @"wwwroot/GIFs/";
         public static string GlobalGIFPath = @"C:/Users/emred/source/repos/Gymopusta/src/project/GymopustaProject/WebAPI/wwwroot/GIFs/";
+        public static string HttpServerPath = @"http://127.0.0.1:8887/";
     }
 }

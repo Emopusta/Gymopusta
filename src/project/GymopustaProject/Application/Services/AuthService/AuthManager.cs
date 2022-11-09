@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KodlamaioDevs.Application.Services.AuthService
+namespace Application.Services.AuthService
 {
     public class AuthManager : IAuthService
     {

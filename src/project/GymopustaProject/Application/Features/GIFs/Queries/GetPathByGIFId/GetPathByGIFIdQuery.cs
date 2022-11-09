@@ -4,6 +4,7 @@ using Application.Features.GIFs.Models;
 using Application.Services.Repositories;
 using AutoMapper;
 using Core.Application.Requests;
+using Core.CrossCuttingConcerns.Exceptions;
 using Domain.Entities;
 using MediatR;
 using System;
@@ -30,10 +31,13 @@ namespace Application.Features.GIFs.Queries.GetPathByGIFId
             public async Task<GIFListDto> Handle(GetPathByGIFIdQuery request, CancellationToken cancellationToken)
             {
                 GIF? gif = await _gIFRepository.GetAsync(g => g.Id == request.Id);
+
+                if (gif == null) throw new BusinessException("gif null");
+
                 GIFListDto result = new()
                 {
                     Id = gif.Id,
-                    GIFPath = PathConstants.GlobalGIFPath + gif.GIFPath
+                    GIFPath = PathConstants.HttpServerPath + gif.GIFPath
                 };
                 
                 return result;

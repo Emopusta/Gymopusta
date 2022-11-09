@@ -5,8 +5,7 @@ using Core.Application.Pipelines.Caching;
 using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Validation;
 using FluentValidation;
-using KodlamaioDevs.Application.Features.Auths.Rules;
-using KodlamaioDevs.Application.Services.AuthService;
+using Application.Services.AuthService;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -15,6 +14,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using KodlamaioDevs.Application.Features.Auths.Rules;
 
 namespace Application
 {

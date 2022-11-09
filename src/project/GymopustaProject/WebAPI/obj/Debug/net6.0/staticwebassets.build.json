@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aHc4bIm+xu/xu+182e6XHBrGE4KwmySDTp54Sr5ECkE=",
+  "Hash": "RyDViaN7ktvV3KRrVg7NRVw2l5r30Mh6gGajoCSh+NM=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs975d4569-0329-41e3-80c7-22c28550c268.PNG",
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\4571f82e-227c-454e-849b-78b9de86ee92.PNG",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "GIFs975d4569-0329-41e3-80c7-22c28550c268.PNG",
+      "RelativePath": "GIFs/4571f82e-227c-454e-849b-78b9de86ee92.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\GIFs975d4569-0329-41e3-80c7-22c28550c268.PNG"
+      "OriginalItemSpec": "wwwroot\\GIFs\\4571f82e-227c-454e-849b-78b9de86ee92.PNG"
     },
     {
-      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs9aa0447b-c234-44a8-855c-d48e404708c5.PNG",
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\6747d44a-f2df-479f-9a23-f2f459375f98.PNG",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
       "BasePath": "_content/WebAPI",
-      "RelativePath": "GIFs9aa0447b-c234-44a8-855c-d48e404708c5.PNG",
+      "RelativePath": "GIFs/6747d44a-f2df-479f-9a23-f2f459375f98.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,58 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\GIFs9aa0447b-c234-44a8-855c-d48e404708c5.PNG"
+      "OriginalItemSpec": "wwwroot\\GIFs\\6747d44a-f2df-479f-9a23-f2f459375f98.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\971ebd55-d415-4752-b413-3ad9fc9a7517.PNG",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "GIFs/971ebd55-d415-4752-b413-3ad9fc9a7517.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GIFs\\971ebd55-d415-4752-b413-3ad9fc9a7517.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\b0adde12-0d3a-4a0c-ad6a-0a45301260a9.PNG",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "GIFs/b0adde12-0d3a-4a0c-ad6a-0a45301260a9.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GIFs\\b0adde12-0d3a-4a0c-ad6a-0a45301260a9.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\c9f06c5b-4c35-40db-a862-ce2a064c6ddb.PNG",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "GIFs/c9f06c5b-4c35-40db-a862-ce2a064c6ddb.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GIFs\\c9f06c5b-4c35-40db-a862-ce2a064c6ddb.PNG"
     }
   ]
 }
