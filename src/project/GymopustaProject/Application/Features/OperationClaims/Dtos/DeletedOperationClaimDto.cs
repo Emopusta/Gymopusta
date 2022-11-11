@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Features.OperationClaims.Dtos
 {
-    internal class DeletedOperationClaimDto
+    public class DeletedOperationClaimDto
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

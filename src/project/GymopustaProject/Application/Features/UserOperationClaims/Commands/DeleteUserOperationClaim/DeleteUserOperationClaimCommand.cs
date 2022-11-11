@@ -38,6 +38,7 @@ namespace Application.Features.UserOperationClaims.Commands.DeleteUserOperationC
                     OperationClaimId = deletedOperationClaim.OperationClaimId,
                     UserId = deletedOperationClaim.Id,
                 };
+
                 return result;
             }
         }
