@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Descriptions.Dtos
 {
-    internal class DeletedDescriptionDto
+    public class DeletedDescriptionDto
     {
+        public int Id { get; set; }
+        public int MoveId { get; set; }
+        public string DescriptionText { get; set; }
     }
 }

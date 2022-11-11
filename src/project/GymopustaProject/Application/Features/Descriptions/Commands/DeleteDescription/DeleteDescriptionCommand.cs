@@ -18,11 +18,17 @@ namespace Application.Features.Descriptions.Commands.DeleteDescription
         public class DeleteDescriptionCommandHandler : IRequestHandler<DeleteDescriptionCommand, DeletedDescriptionDto>
         {
             private readonly IDescriptionRepository _descriptionRepository;
+
+            public DeleteDescriptionCommandHandler(IDescriptionRepository descriptionRepository)
+            {
+                _descriptionRepository = descriptionRepository;
+            }
+
             public async Task<DeletedDescriptionDto> Handle(DeleteDescriptionCommand request, CancellationToken cancellationToken)
             {
                 Description? descriptionToDelete = await _descriptionRepository.GetAsync(d => d.Id == request.Id);
 
-                if (descriptionToDelete != null) { throw new BusinessException("description does not exist"); }
+                if (descriptionToDelete == null) { throw new BusinessException("description does not exist"); }
 
                 Description deletedDescription = await _descriptionRepository.DeleteAsync(descriptionToDelete);
                 DeletedDescriptionDto result = new()

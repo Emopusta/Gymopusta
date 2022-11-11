@@ -8,6 +8,7 @@ using Application.Features.Descriptions.Dtos;
 using Core.Application.Requests;
 using Application.Features.Descriptions.Queries.GetByMoveIdDescriptionQuery;
 using Application.Features.Descriptions.Models;
+using Application.Features.Descriptions.Commands.DeleteDescription;
 
 namespace WebAPI.Controllers
 {
@@ -28,6 +29,12 @@ namespace WebAPI.Controllers
         {
             GetByMoveIdDescriptionQuery getByMoveIdDescriptionQuery = new() { PageRequest = pageRequest, MoveId = moveId };
             DescriptionListModel result = await Mediator.Send(getByMoveIdDescriptionQuery);
+            return Ok(result);
+        }
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromBody] DeleteDescriptionCommand deleteDescriptionCommand)
+        {
+            DeletedDescriptionDto result = await Mediator.Send(deleteDescriptionCommand);
             return Ok(result);
         }
     }
