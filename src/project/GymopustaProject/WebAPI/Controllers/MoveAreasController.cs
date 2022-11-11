@@ -6,6 +6,7 @@ using Core.Application.Requests;
 using WebAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Application.Features.MoveAreas.Commands.DeleteMoveArea;
 
 namespace WebAPI.Controllers
 {
@@ -28,5 +29,11 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromBody] DeleteMoveAreaCommand deleteMoveAreaCommand)
+        {
+            DeletedMoveAreaDto result = await Mediator.Send(deleteMoveAreaCommand);
+            return Ok(result);
+        }
     }
 }
