@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Features.MoveAreas.Dtos
 {
-    internal class DeletedMoveAreaDto
+    public class DeletedMoveAreaDto
     {
+        public string MoveAreaName { get; set; }
+        public int Id { get; set; }
     }
 }

@@ -9,6 +9,7 @@ using Domain.Features.Moves.Dtos;
 using WebAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Application.Features.Moves.Commands.DeleteMove;
 
 namespace WebAPI.Controllers
 {
@@ -43,6 +44,13 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> Update([FromBody] UpdateMoveCommand updateMoveCommand)
         {
             UpdatedMoveDto result = await Mediator.Send(updateMoveCommand);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromBody] DeleteMoveCommand deleteMoveCommand)
+        {
+            DeletedMoveDto result = await Mediator.Send(deleteMoveCommand);
             return Ok(result);
         }
     }
