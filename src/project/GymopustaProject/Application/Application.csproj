@@ -22,7 +22,6 @@
 
 
 	<ItemGroup>
-	  <Folder Include="Features\GIFs\Commands\DeleteGIF\" />
 	  <Folder Include="Features\Moves\Constants\" />
 	</ItemGroup>
 
