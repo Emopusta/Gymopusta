@@ -1,4 +1,5 @@
 ﻿using Application.Features.GIFs.Commands.AddGIF;
+using Application.Features.GIFs.Commands.DeleteGIF;
 using Application.Features.GIFs.Dtos;
 using Application.Features.GIFs.Queries.GetPathByGIFId;
 using Microsoft.AspNetCore.Http;
@@ -22,6 +23,13 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> Get([FromQuery] GetPathByGIFIdQuery getPathByGIFIdQuery)
         {
             GIFListDto result = await Mediator.Send(getPathByGIFIdQuery);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromBody] DeleteGIFCommand deleteGIFCommand)
+        {
+            DeletedGIFDto result = await Mediator.Send(deleteGIFCommand);
             return Ok(result);
         }
     }
