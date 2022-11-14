@@ -32,7 +32,14 @@ namespace Application.Features.GIFs.Queries.GetPathByGIFId
             {
                 GIF? gif = await _gIFRepository.GetAsync(g => g.Id == request.Id);
 
-                if (gif == null) throw new BusinessException("gif null");
+                if (gif == null) {
+                    GIFListDto exceptionResult = new()
+                    {
+                        Id = 0,
+                        GIFPath = PathConstants.HttpServerPath + "defaultGIF.png"
+                    };
+                    return exceptionResult;
+                };
 
                 GIFListDto result = new()
                 {

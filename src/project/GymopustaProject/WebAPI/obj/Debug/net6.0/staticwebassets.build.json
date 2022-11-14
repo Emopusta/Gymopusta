@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RyDViaN7ktvV3KRrVg7NRVw2l5r30Mh6gGajoCSh+NM=",
+  "Hash": "jZ0TgJO/MSHCH5Zbpo5zJNmYPODbaZTGS1vajFbzZgI=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -32,23 +32,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GIFs\\4571f82e-227c-454e-849b-78b9de86ee92.PNG"
-    },
-    {
-      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\6747d44a-f2df-479f-9a23-f2f459375f98.PNG",
-      "SourceId": "WebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
-      "BasePath": "_content/WebAPI",
-      "RelativePath": "GIFs/6747d44a-f2df-479f-9a23-f2f459375f98.PNG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\GIFs\\6747d44a-f2df-479f-9a23-f2f459375f98.PNG"
     },
     {
       "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\971ebd55-d415-4752-b413-3ad9fc9a7517.PNG",
@@ -100,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GIFs\\c9f06c5b-4c35-40db-a862-ce2a064c6ddb.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\GIFs\\defaultGIF.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "GIFs/defaultGIF.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GIFs\\defaultGIF.png"
     }
   ]
 }
