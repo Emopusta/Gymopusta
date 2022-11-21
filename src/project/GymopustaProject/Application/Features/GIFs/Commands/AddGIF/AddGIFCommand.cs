@@ -33,6 +33,7 @@ namespace Application.Features.GIFs.Commands.AddGIF
                 {
                     MoveId = request.MoveId,
                     GIFPath = FileHelper.Upload(request.File, PathConstants.GIFsPath),
+                    IsManual = false
                 };
                 GIF addedGIF = await _gifRepository.AddAsync(gif);
                 AddedGIFDto result = new()

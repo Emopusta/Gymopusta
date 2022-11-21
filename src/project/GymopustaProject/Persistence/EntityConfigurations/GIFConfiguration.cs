@@ -17,6 +17,7 @@ namespace Persistence.EntityConfigurations
             builder.Property(p => p.Id).HasColumnName("Id");
             builder.Property(p => p.MoveId).HasColumnName("MoveId");
             builder.Property(p => p.GIFPath).HasColumnName("GIFPath");
+            builder.Property(p => p.IsManual).HasColumnName("IsManual");
             builder.HasOne(p => p.Move);
         }
     }

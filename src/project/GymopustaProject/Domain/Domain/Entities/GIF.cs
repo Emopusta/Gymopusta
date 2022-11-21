@@ -11,19 +11,19 @@ namespace Domain.Entities
     {
         public int MoveId { get; set; }
         public string GIFPath { get; set; }
-
+        public bool IsManual { get; set; }
         public virtual Move? Move { get; set; }
 
         public GIF()
         {
 
         }
-        public GIF(int id,int moveId, string gIFPath)
+        public GIF(int id,int moveId, string gIFPath, bool isManual)
         {
             Id = id;
             MoveId = moveId;
             GIFPath = gIFPath;
-           
+            IsManual = isManual;
         }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using Application.Features.GIFs.Constants;
 using Application.Features.GIFs.Dtos;
-using Application.Features.GIFs.Queries.GetPathByGIFId;
 using Application.Services.Repositories;
 using Domain.Entities;
 using MediatR;
@@ -10,13 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Features.GIFs.Queries.GetGIFPathByMoveId
+namespace Application.Features.GIFs.Queries.GetManualPathByMoveId
 {
-    public class GetGIFPathByMoveIdQuery : IRequest<GIFListDto>
+    public class GetManualPathByMoveIdQuery : IRequest<GIFListDto>
     {
         public int MoveId { get; set; }
 
-        public class GetGIFPathByMoveIdQueryHandler : IRequestHandler<GetGIFPathByMoveIdQuery, GIFListDto>
+        public class GetGIFPathByMoveIdQueryHandler : IRequestHandler<GetManualPathByMoveIdQuery, GIFListDto>
         {
             private readonly IGIFRepository _gIFRepository;
 
@@ -25,11 +24,11 @@ namespace Application.Features.GIFs.Queries.GetGIFPathByMoveId
                 _gIFRepository = gIFRepository;
             }
 
-            public async Task<GIFListDto> Handle(GetGIFPathByMoveIdQuery request, CancellationToken cancellationToken)
+            public async Task<GIFListDto> Handle(GetManualPathByMoveIdQuery request, CancellationToken cancellationToken)
             {
                 GIF? gif = await _gIFRepository.GetAsync(g => g.MoveId == request.MoveId);
 
-                if (gif == null)
+                if (!gif.IsManual)
                 {
                     GIFListDto exceptionResult = new()
                     {
@@ -42,7 +41,7 @@ namespace Application.Features.GIFs.Queries.GetGIFPathByMoveId
                 GIFListDto result = new()
                 {
                     Id = gif.Id,
-                    GIFPath = PathConstants.HttpServerPath + gif.GIFPath
+                    GIFPath = gif.GIFPath
                 };
 
                 return result;

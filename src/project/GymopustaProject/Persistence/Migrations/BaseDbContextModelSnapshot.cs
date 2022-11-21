@@ -56,7 +56,8 @@ namespace Persistence.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<DateTime>("Created")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetime2")
+                        .HasColumnName("Created");
 
                     b.Property<string>("CreatedByIp")
                         .IsRequired()
@@ -237,6 +238,10 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("GIFPath");
+
+                    b.Property<bool>("IsManual")
+                        .HasColumnType("bit")
+                        .HasColumnName("IsManual");
 
                     b.Property<int>("MoveId")
                         .HasColumnType("int")

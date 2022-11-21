@@ -12,7 +12,7 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20221103081943_init")]
+    [Migration("20221121145633_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -224,6 +224,41 @@ namespace Persistence.Migrations
                     b.ToTable("Descriptions", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.GIF", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("GIFPath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("GIFPath");
+
+                    b.Property<bool>("IsManual")
+                        .HasColumnType("bit")
+                        .HasColumnName("IsManual");
+
+                    b.Property<int>("MoveId")
+                        .HasColumnType("int")
+                        .HasColumnName("MoveId");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MoveId");
+
+                    b.ToTable("GIFs", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.Move", b =>
                 {
                     b.Property<int>("Id")
@@ -324,6 +359,17 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.Move", "Move")
                         .WithMany("Descriptions")
+                        .HasForeignKey("MoveId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Move");
+                });
+
+            modelBuilder.Entity("Domain.Entities.GIF", b =>
+                {
+                    b.HasOne("Domain.Entities.Move", "Move")
+                        .WithMany()
                         .HasForeignKey("MoveId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

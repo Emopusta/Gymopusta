@@ -1,6 +1,9 @@
 ﻿using Application.Features.GIFs.Commands.AddGIF;
+using Application.Features.GIFs.Commands.AddGIFManual;
 using Application.Features.GIFs.Commands.DeleteGIF;
 using Application.Features.GIFs.Dtos;
+using Application.Features.GIFs.Queries.GetGIFPathByMoveId;
+using Application.Features.GIFs.Queries.GetManualPathByMoveId;
 using Application.Features.GIFs.Queries.GetPathByGIFId;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,11 +21,24 @@ namespace WebAPI.Controllers
             AddedGIFDto result = await Mediator.Send(addGIFCommand);
             return Ok(result);
         }
+        [HttpPost("addManual")]
+        public async Task<IActionResult> AddGIFManual([FromQuery] AddGIFManualCommand addGIFManualCommand)
+        {
+            AddedGIFDto result = await Mediator.Send(addGIFManualCommand);
+            return Ok(result);
+        }
+
+        [HttpGet("getManual")]
+        public async Task<IActionResult> Get([FromQuery] GetManualPathByMoveIdQuery getManualPathByMoveIdQuery)
+        {
+            GIFListDto result = await Mediator.Send(getManualPathByMoveIdQuery);
+            return Ok(result);
+        }
 
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] GetPathByGIFIdQuery getPathByGIFIdQuery)
+        public async Task<IActionResult> Get([FromQuery] GetGIFPathByMoveIdQuery getGIFPathByMoveIdQuery)
         {
-            GIFListDto result = await Mediator.Send(getPathByGIFIdQuery);
+            GIFListDto result = await Mediator.Send(getGIFPathByMoveIdQuery);
             return Ok(result);
         }
 

@@ -161,6 +161,29 @@ namespace Persistence.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "GIFs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MoveId = table.Column<int>(type: "int", nullable: false),
+                    GIFPath = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsManual = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GIFs", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_GIFs_Moves_MoveId",
+                        column: x => x.MoveId,
+                        principalTable: "Moves",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "MoveAreas",
                 columns: new[] { "Id", "CreatedDate", "MoveAreaName", "UpdatedDate" },
@@ -169,6 +192,11 @@ namespace Persistence.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Descriptions_MoveId",
                 table: "Descriptions",
+                column: "MoveId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_GIFs_MoveId",
+                table: "GIFs",
                 column: "MoveId");
 
             migrationBuilder.CreateIndex(
@@ -196,6 +224,9 @@ namespace Persistence.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Descriptions");
+
+            migrationBuilder.DropTable(
+                name: "GIFs");
 
             migrationBuilder.DropTable(
                 name: "RefreshTokens");
