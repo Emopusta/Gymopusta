@@ -48,7 +48,7 @@ namespace Application.Features.InstructorCustomers.Commands.AddInstructorCustome
                     PhoneNumber = addedInstructorCustomer.PhoneNumber,
                     BranchId = addedInstructorCustomer.BranchId
                 };
-                return result
+                return result;
             }
         }
 
