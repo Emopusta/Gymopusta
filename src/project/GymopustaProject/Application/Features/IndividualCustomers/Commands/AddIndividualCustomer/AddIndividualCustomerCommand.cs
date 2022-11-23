@@ -41,6 +41,7 @@ namespace Application.Features.IndividualCustomers.Commands.AddIndividualCustome
 
                 AddedIndividualCustomerDto result = new()
                 {
+                    Id = addedIndividualCustomer.Id,
                     UserId = addedIndividualCustomer.UserId,
                     BodyWeight = addedIndividualCustomer.BodyWeight,
                     Height = addedIndividualCustomer.Height,
