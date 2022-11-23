@@ -9,16 +9,16 @@ namespace Domain.Entities
     public class InstructorCustomer : Customer
     {
         public string? Education { get; set; }
-        public string Branch { get; set; }
+        public int BranchId { get; set; }
 
         public InstructorCustomer()
         {
         }
 
-        public InstructorCustomer(int id, int userId, string phoneNumber, int bodyWeight, int height, string? education, string branch) : base(id,userId, phoneNumber, bodyWeight, height)
+        public InstructorCustomer(int id, int userId, string phoneNumber, int bodyWeight, int height, string? education, int branchId) : base(id,userId, phoneNumber, bodyWeight, height)
         {
             Education = education;
-            Branch = branch;
+            BranchId = branchId;
         }
     }
 }
