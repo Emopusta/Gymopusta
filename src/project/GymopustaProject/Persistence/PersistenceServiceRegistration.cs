@@ -28,7 +28,10 @@ namespace Persistence
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IDescriptionRepository, DescriptionRepository>();
             services.AddScoped<IGIFRepository, GIFRepository>();
-
+            services.AddScoped<IIndividualCustomerRepository, IndividualCustomerRepository>();
+            services.AddScoped<IInstructorCustomerRepository, InstructorCustomerRepository>();
+            services.AddScoped<IGymProgramItemRepository, GymProgramItemRepository>();
+            services.AddScoped<IGymProgramRepository, GymProgramRepository>();
 
             return services;
         }
