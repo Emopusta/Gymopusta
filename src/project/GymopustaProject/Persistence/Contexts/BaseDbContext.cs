@@ -27,6 +27,10 @@ namespace Persistence.Contexts
         public DbSet<RefreshToken> RefreshTokens { get; set; }
         public DbSet<Description> Descriptions { get; set; }
         public DbSet<GIF> GIFs { get; set; }
+        public DbSet<GymProgram> GymPrograms{ get; set; }
+        public DbSet<GymProgramItem> GymProgramItems { get; set; }
+        public DbSet<IndividualCustomer> IndividualCustomers { get; set; }
+        public DbSet<InstructorCustomer> InstructorCustomers { get; set; }
 
 
         public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration) : base(dbContextOptions)
