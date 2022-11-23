@@ -13,7 +13,7 @@ namespace Persistence.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<InstructorCustomer> builder)
         {
-            builder.ToTable("GIFs").HasKey(k => k.Id);
+            builder.ToTable("InstructorCustomers").HasKey(k => k.Id);
             builder.Property(p => p.Id).HasColumnName("Id");
             builder.Property(p => p.UserId).HasColumnName("UserId");
             builder.Property(p => p.PhoneNumber).HasColumnName("PhoneNumber");
