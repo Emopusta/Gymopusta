@@ -24,6 +24,9 @@ namespace Application.Features.Moves.Profiles
             CreateMap<Move, MoveListDto>().ReverseMap();
 
             
+            
+
+
         }
     }
 }

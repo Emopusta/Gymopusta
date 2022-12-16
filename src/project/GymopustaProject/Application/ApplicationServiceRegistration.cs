@@ -15,6 +15,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using KodlamaioDevs.Application.Features.Auths.Rules;
+using Application.Services.MoveService;
 
 namespace Application
 {
@@ -38,6 +39,7 @@ namespace Application
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
 
             services.AddScoped<IAuthService, AuthManager>();
+            services.AddScoped<IMoveService, MoveManager>();
 
             return services;
 

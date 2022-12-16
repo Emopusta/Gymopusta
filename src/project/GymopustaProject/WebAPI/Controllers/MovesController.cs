@@ -10,6 +10,7 @@ using WebAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Application.Features.Moves.Commands.DeleteMove;
+using Application.Features.Moves.Queries.GetMoveDetailsById;
 
 namespace WebAPI.Controllers
 {
@@ -29,6 +30,14 @@ namespace WebAPI.Controllers
         {
             GetListMoveQuery getListMoveQuery = new() { PageRequest = pageRequest };
             MoveListModel result = await Mediator.Send(getListMoveQuery);
+            return Ok(result);
+        }
+
+        [HttpGet("getdetails")]
+        public async Task<IActionResult> GetDetails([FromQuery] int id)
+        {
+            GetMoveDetailsByIdQuery getMoveDetailsByIdQuery = new() { Id = id };
+            MoveDetailsDto result = await Mediator.Send(getMoveDetailsByIdQuery);
             return Ok(result);
         }
 
