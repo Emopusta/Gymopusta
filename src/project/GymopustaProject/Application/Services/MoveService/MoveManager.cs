@@ -1,4 +1,6 @@
 ﻿using Application.Features.Descriptions.Models;
+using Application.Features.GIFs.Constants;
+using Application.Features.GIFs.Dtos;
 using Application.Services.Repositories;
 using AutoMapper;
 using Core.Persistence.Paging;
@@ -32,9 +34,25 @@ namespace Application.Services.MoveService
             return result;
         }
 
-        public Task<GIF> GetMoveGIFByMoveId(int id)
+        public async Task<GIFListDto> GetManualMoveGIFByMoveId(int id)
         {
-            throw new NotImplementedException();
+            GIF? gif = await _gIFRepository.GetAsync(g => g.MoveId == id);
+
+            if (gif == null) {
+                GIFListDto nResult = new()
+                {
+                    Id = id,
+                    GIFPath = PathConstants.HttpServerPath + "defaultGIF.png"
+                };
+                return nResult;
+                 }
+
+            GIFListDto result = new()
+            {
+                Id = gif.Id,
+                GIFPath = PathConstants.HttpServerPath + gif.GIFPath
+            };
+            return result;
         }
     }
 }

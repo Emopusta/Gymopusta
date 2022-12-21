@@ -1,4 +1,5 @@
 ﻿using Application.Features.Descriptions.Models;
+using Application.Features.GIFs.Dtos;
 using Core.Persistence.Paging;
 using Domain.Entities;
 using System;
@@ -11,7 +12,7 @@ namespace Application.Services.MoveService
 {
     public interface IMoveService
     {
-        public Task<GIF> GetMoveGIFByMoveId(int id);
+        public Task<GIFListDto> GetManualMoveGIFByMoveId(int id);
         public Task<DescriptionListModel> GetDescriptionsByMoveId(int id);
     }
 }

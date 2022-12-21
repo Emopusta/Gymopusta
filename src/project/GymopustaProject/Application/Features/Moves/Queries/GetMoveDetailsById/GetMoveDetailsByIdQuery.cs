@@ -1,4 +1,5 @@
 ﻿using Application.Features.Descriptions.Models;
+using Application.Features.GIFs.Dtos;
 using Application.Features.Moves.Dtos;
 using Application.Services.MoveService;
 using Application.Services.Repositories;
@@ -35,13 +36,14 @@ namespace Application.Features.Moves.Queries.GetMoveDetailsById
                 Move? move = await _moveRepository.GetAsync(m => m.Id == request.Id);
 
                 DescriptionListModel resultDescriptions = await _moveService.GetDescriptionsByMoveId(request.Id);
+                GIFListDto? resultGIF =  await _moveService.GetManualMoveGIFByMoveId(request.Id);
+
                 
-               
                 
                 MoveDetailsDto moveDetailsDto = new()
                 {
                     Descriptions = resultDescriptions,
-                    GIFPath = "deneme",
+                    GIFPath = resultGIF.GIFPath,
                     MoveId= move.Id,
                     MoveName = move.MoveName
                 };

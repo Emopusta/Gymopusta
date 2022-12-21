@@ -48,9 +48,9 @@ namespace Persistence.Contexts
                 {
                     EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
                     EntityState.Modified => data.Entity.UpdatedDate = DateTime.UtcNow,
-                    EntityState.Detached => throw new NotImplementedException(),
-                    EntityState.Unchanged => throw new NotImplementedException(),
-                    EntityState.Deleted => data.Entity.UpdatedDate = DateTime.UtcNow,
+                    EntityState.Detached => data.Entity.UpdatedDate = DateTime.UtcNow,
+                    EntityState.Unchanged => data.Entity.UpdatedDate = DateTime.UtcNow,
+                    EntityState.Deleted => data.Entity.UpdatedDate = DateTime.UtcNow
                 };
             }
 
