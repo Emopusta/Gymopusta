@@ -33,7 +33,7 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
-        [HttpGet("getdetails")]
+        [HttpGet("GetDetails")]
         public async Task<IActionResult> GetDetails([FromQuery] int id)
         {
             GetMoveDetailsByIdQuery getMoveDetailsByIdQuery = new() { Id = id };
@@ -41,7 +41,7 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
-        [HttpGet("getbyareaid")]
+        [HttpGet("GetByAreaId")]
         public async Task<IActionResult> Get([FromQuery] PageRequest pageRequest, int moveAreaId)
         {
             GetByMoveAreaIdMoveQuery getByMoveAreaIdMoveQuery = new() { PageRequest = pageRequest, MoveAreaId = moveAreaId };

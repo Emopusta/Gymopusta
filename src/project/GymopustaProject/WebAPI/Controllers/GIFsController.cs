@@ -21,14 +21,14 @@ namespace WebAPI.Controllers
             AddedGIFDto result = await Mediator.Send(addGIFCommand);
             return Ok(result);
         }
-        [HttpPost("addManual")]
+        [HttpPost("AddManual")]
         public async Task<IActionResult> AddGIFManual([FromQuery] AddGIFManualCommand addGIFManualCommand)
         {
             AddedGIFDto result = await Mediator.Send(addGIFManualCommand);
             return Ok(result);
         }
 
-        [HttpGet("getManual")]
+        [HttpGet("GetManual")]
         public async Task<IActionResult> Get([FromQuery] GetManualPathByMoveIdQuery getManualPathByMoveIdQuery)
         {
             GIFListDto result = await Mediator.Send(getManualPathByMoveIdQuery);

@@ -392,19 +392,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emred\\.nuget\\packages\\": {}
+    "C:\\Users\\Emre Duman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
+      "projectUniqueName": "C:\\Users\\Emre Duman\\Source\\Repos\\Gymopusta22122022\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
       "projectName": "Core.Mailing",
-      "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
-      "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Mailing\\obj\\",
+      "projectPath": "C:\\Users\\Emre Duman\\Source\\Repos\\Gymopusta22122022\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
+      "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emre Duman\\Source\\Repos\\Gymopusta22122022\\src\\corePackages\\Core.Mailing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -463,7 +463,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

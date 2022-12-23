@@ -22,3 +22,15 @@ C:\Users\emred\source\repos\Gymopusta\src\corePackages\Core.Persistence\obj\Debu
 C:\Users\emred\source\repos\Gymopusta\src\corePackages\Core.Persistence\obj\Debug\net6.0\refint\Core.Persistence.dll
 C:\Users\emred\source\repos\Gymopusta\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.pdb
 C:\Users\emred\source\repos\Gymopusta\src\corePackages\Core.Persistence\obj\Debug\net6.0\ref\Core.Persistence.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\bin\Debug\net6.0\Core.Persistence.deps.json
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\bin\Debug\net6.0\Core.Persistence.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\bin\Debug\net6.0\Core.Persistence.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.csproj.AssemblyReference.cache
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.AssemblyInfoInputs.cache
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.AssemblyInfo.cs
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\refint\Core.Persistence.dll
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.pdb
+C:\Users\Emre Duman\Source\Repos\Gymopusta22122022\src\corePackages\Core.Persistence\obj\Debug\net6.0\ref\Core.Persistence.dll

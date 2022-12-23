@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Application\\Core.Application.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Application\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               },
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Security\\Core.Security.csproj"
               }
             }
           }
@@ -84,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
         "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\Source\\Repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,21 +161,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
         "projectName": "Core.Persistence",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\Source\\Repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -230,21 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Security\\Core.Security.csproj",
         "projectName": "Core.Security",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\Core.Security.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Security\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Security\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,8 +258,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
               }
             }
           }
@@ -317,21 +317,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Application\\Application.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -345,14 +345,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Application\\Core.Application.csproj"
               },
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
               },
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj"
               }
             }
           }
@@ -396,21 +396,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -424,8 +424,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
               }
             }
           }
@@ -461,21 +461,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -489,11 +489,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Application\\Application.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Application\\Application.csproj"
               },
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Domain\\Domain\\Domain.csproj"
               }
             }
           }
@@ -543,21 +543,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\emred\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Emre Duman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emre Duman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -571,8 +571,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\emred\\source\\repos\\Gymopusta\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Emre Duman\\source\\repos\\Gymopusta22122022\\src\\project\\GymopustaProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -639,7 +639,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
